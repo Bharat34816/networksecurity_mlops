@@ -1,0 +1,24 @@
+[2025-04-22 17:54:51,648] 16 root - INFO - Data ingestion initiated
+[2025-04-22 17:54:59,105] 61 root - INFO - Performed train test split on the dataframe
+[2025-04-22 17:54:59,105] 63 root - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[2025-04-22 17:54:59,106] 71 root - INFO - Exporting train and test file path.
+[2025-04-22 17:54:59,197] 80 root - INFO - Exported train and test file path.
+[2025-04-22 17:54:59,198] 18 root - INFO - Data ingestion completed
+[2025-04-22 17:54:59,215] 22 root - INFO - Data vailidation initiated
+[2025-04-22 17:54:59,352] 39 root - INFO - Required number of columns:2
+[2025-04-22 17:54:59,354] 40 root - INFO - Data frame has columns:31
+[2025-04-22 17:54:59,354] 39 root - INFO - Required number of columns:2
+[2025-04-22 17:54:59,354] 40 root - INFO - Data frame has columns:31
+[2025-04-22 17:54:59,772] 24 root - INFO - Data Validation complleted
+[2025-04-22 17:54:59,773] 26 root - INFO - Data transformation started
+[2025-04-22 17:54:59,773] 47 root - INFO - Entered initiate data transformation method of DataTransformation class
+[2025-04-22 17:54:59,773] 49 root - INFO - Starting data transformation
+[2025-04-22 17:54:59,819] 35 root - INFO - Entered get_data_transformer obj method of transformation class
+[2025-04-22 17:54:59,820] 38 root - INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[2025-04-22 17:54:59,872] 42 root - INFO - Entered the save_object method of MainUtils class
+[2025-04-22 17:54:59,877] 46 root - INFO - Exited the save_object method of MainUtils class
+[2025-04-22 17:54:59,881] 31 root - INFO - data transformation done
+[2025-04-22 17:54:59,881] 32 root - INFO - Model Training started
+[2025-04-22 17:55:08,155] 13 root - ERROR - Error occured in python file [C:\Users\bhara\OneDrive\Desktop\MLops\networksecurity\utils\main_utils\utils.py] line number [86] error message [Found input variables with inconsistent numbers of samples: [8844, 2211]].
+[2025-04-22 17:55:08,155] 13 root - ERROR - Error occured in python file [C:\Users\bhara\OneDrive\Desktop\MLops\networksecurity\components\model_trainer.py] line number [106] error message [Error occured in python file [C:\Users\bhara\OneDrive\Desktop\MLops\networksecurity\utils\main_utils\utils.py] line number [86] error message [Found input variables with inconsistent numbers of samples: [8844, 2211]].].
+[2025-04-22 17:55:08,155] 13 root - ERROR - Error occured in python file [C:\Users\bhara\OneDrive\Desktop\MLops\main.py] line number [35] error message [Error occured in python file [C:\Users\bhara\OneDrive\Desktop\MLops\networksecurity\components\model_trainer.py] line number [106] error message [Error occured in python file [C:\Users\bhara\OneDrive\Desktop\MLops\networksecurity\utils\main_utils\utils.py] line number [86] error message [Found input variables with inconsistent numbers of samples: [8844, 2211]].].].

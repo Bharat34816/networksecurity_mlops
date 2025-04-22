@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/bhara/OneDrive/Desktop/MLops/mlruns/719499052786370370/297db2981ce64774850296549242dc75/artifacts
+end_time: 1745342841880
+entry_point_name: ''
+experiment_id: '719499052786370370'
+lifecycle_stage: active
+run_id: 297db2981ce64774850296549242dc75
+run_name: fearless-perch-471
+run_uuid: 297db2981ce64774850296549242dc75
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745342830639
+status: 3
+tags: []
+user_id: bhara

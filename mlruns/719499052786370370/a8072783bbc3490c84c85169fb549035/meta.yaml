@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/bhara/OneDrive/Desktop/MLops/mlruns/719499052786370370/a8072783bbc3490c84c85169fb549035/artifacts
+end_time: 1745342362436
+entry_point_name: ''
+experiment_id: '719499052786370370'
+lifecycle_stage: active
+run_id: a8072783bbc3490c84c85169fb549035
+run_name: unleashed-fowl-0
+run_uuid: a8072783bbc3490c84c85169fb549035
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745342349367
+status: 3
+tags: []
+user_id: bhara

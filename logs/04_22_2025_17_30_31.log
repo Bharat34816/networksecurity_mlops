@@ -1,0 +1,30 @@
+[2025-04-22 17:30:56,590] 16 root - INFO - Data ingestion initiated
+[2025-04-22 17:41:31,378] 61 root - INFO - Performed train test split on the dataframe
+[2025-04-22 17:41:31,379] 63 root - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[2025-04-22 17:41:31,380] 71 root - INFO - Exporting train and test file path.
+[2025-04-22 17:41:31,535] 80 root - INFO - Exported train and test file path.
+[2025-04-22 17:41:31,536] 18 root - INFO - Data ingestion completed
+[2025-04-22 17:41:31,557] 22 root - INFO - Data vailidation initiated
+[2025-04-22 17:41:31,699] 39 root - INFO - Required number of columns:2
+[2025-04-22 17:41:31,730] 40 root - INFO - Data frame has columns:31
+[2025-04-22 17:41:31,730] 39 root - INFO - Required number of columns:2
+[2025-04-22 17:41:31,730] 40 root - INFO - Data frame has columns:31
+[2025-04-22 17:41:32,233] 24 root - INFO - Data Validation complleted
+[2025-04-22 17:41:32,234] 26 root - INFO - Data transformation started
+[2025-04-22 17:41:32,234] 47 root - INFO - Entered initiate data transformation method of DataTransformation class
+[2025-04-22 17:41:32,234] 49 root - INFO - Starting data transformation
+[2025-04-22 17:41:32,275] 35 root - INFO - Entered get_data_transformer obj method of transformation class
+[2025-04-22 17:41:32,276] 38 root - INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[2025-04-22 17:41:32,311] 42 root - INFO - Entered the save_object method of MainUtils class
+[2025-04-22 17:41:32,322] 46 root - INFO - Exited the save_object method of MainUtils class
+[2025-04-22 17:41:32,327] 31 root - INFO - data transformation done
+[2025-04-22 17:41:32,328] 32 root - INFO - Model Training started
+[2025-04-22 17:41:43,990] 13 root - ERROR - Error occured in python file [C:\Users\bhara\OneDrive\Desktop\MLops\networksecurity\utils\main_utils\utils.py] line number [84] error message [Expected 2D array, got 1D array instead:
+array=[1. 0. 0. ... 1. 0. 1.].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.].
+[2025-04-22 17:41:43,991] 13 root - ERROR - Error occured in python file [C:\Users\bhara\OneDrive\Desktop\MLops\networksecurity\components\model_trainer.py] line number [106] error message [Error occured in python file [C:\Users\bhara\OneDrive\Desktop\MLops\networksecurity\utils\main_utils\utils.py] line number [84] error message [Expected 2D array, got 1D array instead:
+array=[1. 0. 0. ... 1. 0. 1.].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.].].
+[2025-04-22 17:41:43,991] 13 root - ERROR - Error occured in python file [C:\Users\bhara\OneDrive\Desktop\MLops\main.py] line number [35] error message [Error occured in python file [C:\Users\bhara\OneDrive\Desktop\MLops\networksecurity\components\model_trainer.py] line number [106] error message [Error occured in python file [C:\Users\bhara\OneDrive\Desktop\MLops\networksecurity\utils\main_utils\utils.py] line number [84] error message [Expected 2D array, got 1D array instead:
+array=[1. 0. 0. ... 1. 0. 1.].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.].].].
