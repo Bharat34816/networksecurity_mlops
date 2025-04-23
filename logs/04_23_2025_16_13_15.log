@@ -1,0 +1,6 @@
+[2025-04-23 16:13:25,942] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-04-23 16:13:25,953] 107 dagshub - INFO - Accessing as Bharat34816
+[2025-04-23 16:13:26,533] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/Bharat34816/networksecurity_mlops "HTTP/1.1 200 OK"
+[2025-04-23 16:13:28,073] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-04-23 16:13:28,168] 107 dagshub - INFO - Initialized MLflow to track repo "Bharat34816/networksecurity_mlops"
+[2025-04-23 16:13:28,169] 107 dagshub - INFO - Repository Bharat34816/networksecurity_mlops initialized!

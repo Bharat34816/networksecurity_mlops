@@ -1,0 +1,26 @@
+[2025-04-23 12:35:20,783] 74 dagshub.auth.tokens - INFO - Removed expired tokens from the token cache
+[2025-04-23 12:35:43,276] 1025 httpx - INFO - HTTP Request: POST https://dagshub.com/login/oauth/middleman "HTTP/1.1 200 OK"
+[2025-04-23 12:35:43,792] 1025 httpx - INFO - HTTP Request: POST https://dagshub.com/login/oauth/access_token "HTTP/1.1 200 OK"
+[2025-04-23 12:35:44,269] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-04-23 12:35:44,279] 107 dagshub - INFO - Accessing as Bharat34816
+[2025-04-23 12:35:44,789] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/Bharat34816/networksecurity_mlops "HTTP/1.1 200 OK"
+[2025-04-23 12:35:45,265] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-04-23 12:35:45,276] 107 dagshub - INFO - Initialized MLflow to track repo "Bharat34816/networksecurity_mlops"
+[2025-04-23 12:35:45,343] 107 dagshub - INFO - Repository Bharat34816/networksecurity_mlops initialized!
+[2025-04-23 12:36:18,943] 32 root - INFO - Start data Ingestion
+[2025-04-23 12:36:43,788] 61 root - INFO - Performed train test split on the dataframe
+[2025-04-23 12:36:43,789] 63 root - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[2025-04-23 12:36:43,790] 71 root - INFO - Exporting train and test file path.
+[2025-04-23 12:36:43,966] 80 root - INFO - Exported train and test file path.
+[2025-04-23 12:36:43,971] 35 root - INFO - Data Ingestion completed and artifact: DataIngestionArtifact(trained_file_path='Artifacts\\data_ingestion\\ingested\\train.csv', test_file_path='Artifacts\\data_ingestion\\ingested\\test.csv')
+[2025-04-23 12:36:44,055] 44 root - INFO - Initiate the data Validation
+[2025-04-23 12:36:44,211] 39 root - INFO - Required number of columns:2
+[2025-04-23 12:36:44,211] 40 root - INFO - Data frame has columns:31
+[2025-04-23 12:36:44,211] 39 root - INFO - Required number of columns:2
+[2025-04-23 12:36:44,211] 40 root - INFO - Data frame has columns:31
+[2025-04-23 12:36:45,300] 47 root - INFO - Entered initiate data transformation method of DataTransformation class
+[2025-04-23 12:36:45,300] 49 root - INFO - Starting data transformation
+[2025-04-23 12:36:45,300] 13 root - ERROR - Error occured in python file [C:\Users\bhara\OneDrive\Desktop\MLops\networksecurity\components\data_transformation.py] line number [50] error message ['NoneType' object has no attribute 'valid_train_file_path'].
+[2025-04-23 12:36:45,301] 13 root - ERROR - Error occured in python file [C:\Users\bhara\OneDrive\Desktop\MLops\networksecurity\pipeline\training_pipeline.py] line number [55] error message [Error occured in python file [C:\Users\bhara\OneDrive\Desktop\MLops\networksecurity\components\data_transformation.py] line number [50] error message ['NoneType' object has no attribute 'valid_train_file_path'].].
+[2025-04-23 12:36:45,301] 13 root - ERROR - Error occured in python file [C:\Users\bhara\OneDrive\Desktop\MLops\networksecurity\pipeline\training_pipeline.py] line number [83] error message [Error occured in python file [C:\Users\bhara\OneDrive\Desktop\MLops\networksecurity\pipeline\training_pipeline.py] line number [55] error message [Error occured in python file [C:\Users\bhara\OneDrive\Desktop\MLops\networksecurity\components\data_transformation.py] line number [50] error message ['NoneType' object has no attribute 'valid_train_file_path'].].].
+[2025-04-23 12:36:45,302] 13 root - ERROR - Error occured in python file [C:\Users\bhara\OneDrive\Desktop\MLops\app.py] line number [58] error message [Error occured in python file [C:\Users\bhara\OneDrive\Desktop\MLops\networksecurity\pipeline\training_pipeline.py] line number [83] error message [Error occured in python file [C:\Users\bhara\OneDrive\Desktop\MLops\networksecurity\pipeline\training_pipeline.py] line number [55] error message [Error occured in python file [C:\Users\bhara\OneDrive\Desktop\MLops\networksecurity\components\data_transformation.py] line number [50] error message ['NoneType' object has no attribute 'valid_train_file_path'].].].].

@@ -1,0 +1,23 @@
+[2025-04-23 12:54:46,720] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-04-23 12:54:46,735] 107 dagshub - INFO - Accessing as Bharat34816
+[2025-04-23 12:54:47,299] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/Bharat34816/networksecurity_mlops "HTTP/1.1 200 OK"
+[2025-04-23 12:54:47,822] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-04-23 12:54:47,831] 107 dagshub - INFO - Initialized MLflow to track repo "Bharat34816/networksecurity_mlops"
+[2025-04-23 12:54:47,834] 107 dagshub - INFO - Repository Bharat34816/networksecurity_mlops initialized!
+[2025-04-23 12:54:52,959] 32 root - INFO - Start data Ingestion
+[2025-04-23 12:55:35,194] 61 root - INFO - Performed train test split on the dataframe
+[2025-04-23 12:55:35,195] 63 root - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[2025-04-23 12:55:35,200] 71 root - INFO - Exporting train and test file path.
+[2025-04-23 12:55:35,470] 80 root - INFO - Exported train and test file path.
+[2025-04-23 12:55:35,474] 35 root - INFO - Data Ingestion completed and artifact: DataIngestionArtifact(trained_file_path='Artifacts\\data_ingestion\\ingested\\train.csv', test_file_path='Artifacts\\data_ingestion\\ingested\\test.csv')
+[2025-04-23 12:55:35,514] 44 root - INFO - Initiate the data Validation
+[2025-04-23 12:55:35,705] 39 root - INFO - Required number of columns:2
+[2025-04-23 12:55:35,705] 40 root - INFO - Data frame has columns:31
+[2025-04-23 12:55:35,705] 39 root - INFO - Required number of columns:2
+[2025-04-23 12:55:35,706] 40 root - INFO - Data frame has columns:31
+[2025-04-23 12:55:36,068] 47 root - INFO - Entered initiate data transformation method of DataTransformation class
+[2025-04-23 12:55:36,068] 49 root - INFO - Starting data transformation
+[2025-04-23 12:55:36,068] 13 root - ERROR - Error occured in python file [C:\Users\bhara\OneDrive\Desktop\MLops\networksecurity\components\data_transformation.py] line number [50] error message ['NoneType' object has no attribute 'valid_train_file_path'].
+[2025-04-23 12:55:36,069] 13 root - ERROR - Error occured in python file [C:\Users\bhara\OneDrive\Desktop\MLops\networksecurity\pipeline\training_pipeline.py] line number [55] error message [Error occured in python file [C:\Users\bhara\OneDrive\Desktop\MLops\networksecurity\components\data_transformation.py] line number [50] error message ['NoneType' object has no attribute 'valid_train_file_path'].].
+[2025-04-23 12:55:36,070] 13 root - ERROR - Error occured in python file [C:\Users\bhara\OneDrive\Desktop\MLops\networksecurity\pipeline\training_pipeline.py] line number [83] error message [Error occured in python file [C:\Users\bhara\OneDrive\Desktop\MLops\networksecurity\pipeline\training_pipeline.py] line number [55] error message [Error occured in python file [C:\Users\bhara\OneDrive\Desktop\MLops\networksecurity\components\data_transformation.py] line number [50] error message ['NoneType' object has no attribute 'valid_train_file_path'].].].
+[2025-04-23 12:55:36,071] 13 root - ERROR - Error occured in python file [C:\Users\bhara\OneDrive\Desktop\MLops\app.py] line number [58] error message [Error occured in python file [C:\Users\bhara\OneDrive\Desktop\MLops\networksecurity\pipeline\training_pipeline.py] line number [83] error message [Error occured in python file [C:\Users\bhara\OneDrive\Desktop\MLops\networksecurity\pipeline\training_pipeline.py] line number [55] error message [Error occured in python file [C:\Users\bhara\OneDrive\Desktop\MLops\networksecurity\components\data_transformation.py] line number [50] error message ['NoneType' object has no attribute 'valid_train_file_path'].].].].
