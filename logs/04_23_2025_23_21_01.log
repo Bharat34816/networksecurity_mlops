@@ -1,0 +1,38 @@
+[2025-04-23 23:21:30,066] 74 dagshub.auth.tokens - INFO - Removed expired tokens from the token cache
+[2025-04-23 23:21:35,808] 1025 httpx - INFO - HTTP Request: POST https://dagshub.com/login/oauth/middleman "HTTP/1.1 200 OK"
+[2025-04-23 23:21:36,303] 1025 httpx - INFO - HTTP Request: POST https://dagshub.com/login/oauth/access_token "HTTP/1.1 200 OK"
+[2025-04-23 23:21:36,752] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-04-23 23:21:36,761] 107 dagshub - INFO - Accessing as Bharat34816
+[2025-04-23 23:21:37,267] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/Bharat34816/networksecurity_mlops "HTTP/1.1 200 OK"
+[2025-04-23 23:21:37,837] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-04-23 23:21:37,843] 107 dagshub - INFO - Initialized MLflow to track repo "Bharat34816/networksecurity_mlops"
+[2025-04-23 23:21:37,844] 107 dagshub - INFO - Repository Bharat34816/networksecurity_mlops initialized!
+[2025-04-23 23:23:17,457] 34 root - INFO - Start data Ingestion
+[2025-04-23 23:23:25,734] 44 root - INFO - Successfully exported collection from MongoDB to DataFrame.
+[2025-04-23 23:23:25,923] 60 root - INFO - Data exported to feature store at Artifacts\data_ingestion\feature_store\phisingData.csv.
+[2025-04-23 23:23:25,935] 77 root - INFO - Performed train-test split on the DataFrame.
+[2025-04-23 23:23:25,937] 86 root - INFO - Exporting train and test datasets to specified file paths.
+[2025-04-23 23:23:26,122] 92 root - INFO - Train and test datasets exported successfully.
+[2025-04-23 23:23:26,122] 114 root - INFO - Data ingestion completed successfully.
+[2025-04-23 23:23:26,123] 37 root - INFO - Data Ingestion completed and artifact: DataIngestionArtifact(trained_file_path='Artifacts\\data_ingestion\\ingested\\train.csv', test_file_path='Artifacts\\data_ingestion\\ingested\\test.csv')
+[2025-04-23 23:23:26,181] 46 root - INFO - Initiate the data Validation
+[2025-04-23 23:23:26,333] 39 root - INFO - Required number of columns:31
+[2025-04-23 23:23:26,334] 40 root - INFO - Data frame has columns:31
+[2025-04-23 23:23:26,334] 39 root - INFO - Required number of columns:31
+[2025-04-23 23:23:26,334] 40 root - INFO - Data frame has columns:31
+[2025-04-23 23:23:26,540] 47 root - INFO - Entered initiate data transformation method of DataTransformation class
+[2025-04-23 23:23:26,540] 49 root - INFO - Starting data transformation
+[2025-04-23 23:23:26,605] 35 root - INFO - Entered get_data_transformer obj method of transformation class
+[2025-04-23 23:23:26,606] 38 root - INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[2025-04-23 23:23:26,647] 42 root - INFO - Entered the save_object method of MainUtils class
+[2025-04-23 23:23:26,662] 46 root - INFO - Exited the save_object method of MainUtils class
+[2025-04-23 23:23:26,663] 42 root - INFO - Entered the save_object method of MainUtils class
+[2025-04-23 23:23:26,673] 46 root - INFO - Exited the save_object method of MainUtils class
+[2025-04-23 23:27:39,359] 42 root - INFO - Entered the save_object method of MainUtils class
+[2025-04-23 23:27:39,474] 46 root - INFO - Exited the save_object method of MainUtils class
+[2025-04-23 23:27:39,474] 42 root - INFO - Entered the save_object method of MainUtils class
+[2025-04-23 23:27:39,571] 46 root - INFO - Exited the save_object method of MainUtils class
+[2025-04-23 23:27:39,571] 112 root - INFO - Model trainer artifact: ModelTrainerArtifact(trained_model_file_path='Artifacts\\04_23_2025_23_21_08\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=0.9907322537936654, precision_score=0.9876142131979695, recall_score=0.9938700449530037), test_metric_artifact=ClassificationMetricArtifact(f1_score=0.9830374753451676, precision_score=0.9795597484276729, recall_score=0.9865399841646872))
+[2025-04-23 23:27:39,578] 13 root - ERROR - Error occured in python file [C:\Users\bhara\OneDrive\Desktop\MLops\networksecurity\pipeline\training_pipeline.py] line number [83] error message ['TrainingPipeline' object has no attribute 's3_sync'].
+[2025-04-23 23:27:39,579] 13 root - ERROR - Error occured in python file [C:\Users\bhara\OneDrive\Desktop\MLops\networksecurity\pipeline\training_pipeline.py] line number [105] error message [Error occured in python file [C:\Users\bhara\OneDrive\Desktop\MLops\networksecurity\pipeline\training_pipeline.py] line number [83] error message ['TrainingPipeline' object has no attribute 's3_sync'].].
+[2025-04-23 23:27:39,579] 13 root - ERROR - Error occured in python file [C:\Users\bhara\OneDrive\Desktop\MLops\app.py] line number [58] error message [Error occured in python file [C:\Users\bhara\OneDrive\Desktop\MLops\networksecurity\pipeline\training_pipeline.py] line number [105] error message [Error occured in python file [C:\Users\bhara\OneDrive\Desktop\MLops\networksecurity\pipeline\training_pipeline.py] line number [83] error message ['TrainingPipeline' object has no attribute 's3_sync'].].].
